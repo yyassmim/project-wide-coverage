@@ -73,40 +73,31 @@ cursor: pointer;
 }
 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:670px) {
 
-    body {
-        position: fixed;
-    }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    margin: 0px;
+}
 
     .menu {
     display: none;
-    position: fixed;
 }
  
-main {
-    display: table;
-    width: 100%;
-}
-
 main div:nth-child(1){
 display: table-footer-group;
 
 }
 
-.main {
-    width: 100%;
-    margin: 0;
-     padding:0;
-     height: 50%;
-}
-
 h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 400;
     line-height: 30px;
-    margin: 120px 55px 0 55px;
     width: auto;
     height: 60px;
 }
@@ -115,17 +106,17 @@ p {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 33px;
+    line-height: 30px;
     letter-spacing: 0.5px;
     width: auto;
     margin: 28px 43px;
 }
 
 img  {
-    margin: 0 auto;
-    position: static;
+    margin: 0px;
     width: 100%;
     padding: 40px;
+    height: 339px
 
 }
 
@@ -144,9 +135,9 @@ button {
 
 .learn {
     text-align: center;
-    width: auto;
-    display: block;
-    margin-bottom: 19px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 30px;
 }
 
 }
